@@ -58,21 +58,31 @@ html, body {
 	text-align: center;
 }
 
+li.resume a{
+  color: rgb(82, 116, 249);
+}
+
+li.resume a:hover{
+  color: white;
+}
+
 li.home:hover, li.projects:hover, li.about:hover {
-	background:black;
-  	color: white;
-  	cursor: pointer;
-}
-
-li.resume:hover {
-	background: black;
-}
-
-li.resume> a:hover {
+  background: black;
 	color: white;
 	cursor: pointer;
-	
 }
+
+
+
+/*li.resume:hover {
+	background: black;
+  cursor: pointer;
+}*/
+
+/*li.resume > a:hover {
+	color: white;
+	cursor: pointer;
+}*/
 
 .push {
     position: relative;
@@ -398,7 +408,7 @@ h1 {
 
 /*RESUME PAGE*/
 
-div.resume {
+/*div.resume {
   padding: 20px;
   width: 850px;
   margin: 50px auto;
@@ -439,4 +449,4 @@ div.resume td {
 
 span.blue {
   color: #4CAEE3;
-}
+}*/
