@@ -162,7 +162,7 @@ button.projects:hover {
 }
 
 .home-page {
-  margin-top: 150px;
+  margin-top: 15%;
 }
 .home-page h1 {
 
@@ -180,9 +180,11 @@ button.projects:hover {
 }
 
 .home-page .icons a {
-  margin: 10px;
+  margin-right: 10px;
   color: lightblue;
+  text-decoration: none;
 }
+
 
 span.gray {
   color: rgb(171, 166, 166)
