@@ -289,6 +289,7 @@ div .herobook-login {
   overflow: hidden;
   margin-left: -111px;
   position: relative;
+  border: solid 1px black;
 }
 
 div .herobook-login img {
@@ -299,7 +300,10 @@ div .herobook-login img {
 div .herobook-feed {
   width: 500px;
   overflow: hidden;
-  margin-left: -142px;
+  margin-left: -111px;
+  top: 7px;
+  position: relative;
+  border: solid 1px black;
 }
 
 div .herobook-feed img {
@@ -311,10 +315,11 @@ div .herobook-feed img {
 div .herobook-profile {
   width: 500px;
   overflow: hidden;
-  margin-left: -111px;
+  margin-left: -116px;
   position: relative;
-  top: -333px;
-  left: 536px;
+  top: -328px;
+  left: 505px;
+  border: solid 1px black;
 }
 
 div .herobook-profile img {
@@ -332,16 +337,34 @@ div.projects > div.orange > .herobook > li {
   list-style-type: inside;
 }
 
-div.projects > .asteroids > div.asteroidsimg, 
 div.projects > .activerecord > div.active-record-img {  
   width: 800px;
   margin-top: 20px;
 }
 
-div.projects > .asteroids > div.asteroidsimg > img, 
+div.projects > div.blue > .asteroids > div.asteroidsimg {
+  position: relative;
+  right: 44px;
+}
+
 div.projects > .activerecord > div.active-record-img > img {
   max-width: 100%;
   max-height: 100%;
+}
+
+div.projects > div.blue > .asteroids > div.asteroidsimg > img {
+  width: 900px;
+}
+
+div.projects > .activerecord > div.active-record-img > .associations, .sqlobject {
+  width: 800px;
+  overflow: hidden;
+}
+
+div.projects > .activerecord > div.active-record-img > .associations > img, .sqlobject > img{
+  width: 1300px;
+  position: relative;
+  bottom: 30px;
 }
 
 div.projects h3 {
