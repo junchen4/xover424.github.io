@@ -257,7 +257,7 @@ div.projects > h1, div.about > h1 {
   border-bottom: dashed 1px grey;
 }
 
-.herobook, .asteroids, .activerecord, .railslite, .trelloclone, .swake {
+.herobook, .asteroids, .activerecord, .railslite, .trello, .swake {
   width: 800px;
   margin: 35px auto;
   display: block;
@@ -359,7 +359,7 @@ div .swake-image-container {
   overflow: hidden;
 }
 
-/*end*/
+/*end of image containers*/
 
 div.projects .activerecord div.active-record-img  img {
 /*  max-width: 100%;
