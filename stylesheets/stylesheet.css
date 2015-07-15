@@ -253,7 +253,11 @@ div.projects > h1, div.about > h1 {
   color: white;
 }
 
-.herobook, .asteroids, .activerecord {
+.project-container:not(:last-child) {
+  border-bottom: dashed 1px grey;
+}
+
+.herobook, .asteroids, .activerecord, .railslite, .trelloclone, .swake {
   width: 800px;
   margin: 35px auto;
   display: block;
@@ -267,16 +271,8 @@ div.projects > h1, div.about > h1 {
   margin-top: 52px;
 }
 
-div.blue, div.red {
-  border-top: 1px dashed grey;
-  border-bottom: 1px dashed grey;
-}
 
-div.orange {
-  border-bottom: 1px dashed grey;
-}
-
-div.projects > div.orange > .herobook > div.image {
+div.projects .herobook  div.image {
   margin: 0 auto;
   display: block;
   height: 300px;
@@ -328,40 +324,64 @@ div .herobook-profile img {
   left: -42px;
 }
 
-div.projects > div.orange > .herobook > ul {
+div.projects .herobook > ul {
 	float: right;
 }
 
-div.projects > div.orange > .herobook > li {
+div.projects .herobook > li {
   list-style-type: disc;
   list-style-type: inside;
 }
 
-div.projects > .activerecord > div.active-record-img {  
+div.projects .activerecord div.active-record-img {  
   width: 800px;
   margin-top: 20px;
 }
 
-div.projects > div.blue > .asteroids > div.asteroidsimg {
+div.projects .asteroids div.asteroidsimg {
   position: relative;
   right: 44px;
 }
 
-div.projects > .activerecord > div.active-record-img > img {
-  max-width: 100%;
-  max-height: 100%;
-}
+/*image containers*/
 
-div.projects > div.blue > .asteroids > div.asteroidsimg > img {
-  width: 900px;
-}
-
-div.projects > .activerecord > div.active-record-img > .associations, .sqlobject {
+div.projects .activerecord div.active-record-img >.associations, .sqlobject, .rails-image-container {
   width: 800px;
   overflow: hidden;
 }
 
-div.projects > .activerecord > div.active-record-img > .associations > img, .sqlobject > img{
+div .trello-image-container {
+  overflow: hidden;
+  width: 920px;
+}
+
+div .swake-image-container {
+  overflow: hidden;
+}
+
+/*end*/
+
+div.projects .activerecord div.active-record-img  img {
+/*  max-width: 100%;
+  max-height: 100%;*/
+}
+
+div.projects .asteroids div.asteroidsimg  img {
+  width: 900px;
+}
+
+.swake img {
+  position: relative;
+  width: 950px;
+  right: 67px;
+}
+
+.trello img {
+  width: 1000px;
+}
+
+
+div.projects .activerecord div.active-record-img .associations img, .sqlobject img{
   width: 1300px;
   position: relative;
   bottom: 30px;
@@ -372,7 +392,7 @@ div.projects h3 {
   display: inline;
 }
 
-div.projects > p {
+div.projects p {
   display: inline;
 }
 
